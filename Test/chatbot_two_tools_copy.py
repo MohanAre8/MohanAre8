@@ -277,8 +277,8 @@ st.markdown(
 
 def run_chatbot_streamlit():
     # Load the logos
-    uic_logo = Image.open("uic_logo.png")
-    ccc_logo = Image.open("ccc_logo.png")
+    uic_logo = Image.open("Test/uic_logo.png")
+    ccc_logo = Image.open("Test/ccc_logo.png")
     
     # Display logos and title
     col1, col2, col3 = st.columns([1, 6, 1])  # Adjust column proportions for centering
