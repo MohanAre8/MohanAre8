@@ -1,5 +1,23 @@
+# Streamlit for app deployment
 streamlit
+
+# LangChain core libraries and tools
 langchain
 langchain-core
-openai
-python-dotenv
+langchain-anthropic
+langgraph
+
+# Web scraping and automation
+selenium
+webdriver-manager
+
+# HTML parsing
+beautifulsoup4
+requests
+
+# PDF processing
+pdfplumber
+
+# Development utilities
+ipython
+typing-extensions
