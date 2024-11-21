@@ -12,7 +12,7 @@ os.environ["ANTHROPIC_API_KEY"] = "sk-ant-api03-o9cWfYsXGfFpGH47XdCsIjisX0E6zVfw
 
 #for model architcture
 from typing import Literal, TypedDict
-from langchain_core.messages import HumanMessage
+from langchain.schema import HumanMessage
 from langchain_anthropic import ChatAnthropic
 from langchain_core.tools import tool
 from langgraph.checkpoint.memory import MemorySaver
